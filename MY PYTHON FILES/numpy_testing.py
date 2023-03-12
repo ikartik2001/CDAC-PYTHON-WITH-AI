@@ -1,9 +1,7 @@
 import numpy as np
 
-a = np.array([23])
+a = np.random.randint()
 print(a)
-
-
 
 
 
