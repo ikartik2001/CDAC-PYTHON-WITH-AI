@@ -1,8 +1,7 @@
 import numpy as np
 
-a = np.random.randint()
+a = np.arange(13)
 print(a)
-
 
 
 
