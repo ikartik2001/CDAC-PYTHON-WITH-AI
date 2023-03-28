@@ -1,10 +1,12 @@
-import matplotlib
-import matplotlib.pyplot as plt
 import numpy as np
-g=np.array([1,2,4,5,7,8,2])
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 
-m=plt.plot(g)
-m.show()
+pizza=pd.read_csv(r'C:\Users\cdac\Documents\GitHub\CDAC-PYTHON-WITH-AI\JUPITER FOLDER (AI)\ASSIGNMENTS\pizza_sales.csv')
+file=pizza.copy()
+
+file.isnull().sum()
 
 
 
