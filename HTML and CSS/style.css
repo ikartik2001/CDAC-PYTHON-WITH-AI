@@ -1,0 +1,24 @@
+body{
+    background-color: antiquewhite;
+}
+
+.intro{
+    text-align: center;
+    text-decoration: crimson;   
+}
+nav{    
+    border: 1px solid #5c0505;   
+    background-color: brown;
+}
+a{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: large;
+}
+nav ul li {
+    padding: 0 100px;
+    display: inline-block;
+}
+box{
+    color: #5c0505;
+}
